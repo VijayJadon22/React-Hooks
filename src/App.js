@@ -1,11 +1,15 @@
 
 import './App.css';
-import Input from './components/Input';
+import { Blog } from './components/Blog';
+import ClassInput from './components/ClassInput';
+import Input, { FunctionalInput } from './components/FunctionalInput';
 
 function App() {
   return (
     <div className="App">
-      <Input/>
+      {/* <ClassInput/> */}
+      {/* <FunctionalInput /> */}
+      <Blog/>
     </div>
   );
 }
